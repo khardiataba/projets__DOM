@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  margin: 0;
+  padding: 0;
+  color: #111; /* Texte général plus foncé */
+}
+
+.quiz-container {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #111; /* Plus foncé */
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.question {
+  font-weight: bold;
+  font-size: 18px;
+  color: #222; /* Plus foncé */
+  margin: 20px 0 10px;
+}
+
+.answers label {
+  display: block;
+  padding: 12px;
+  margin: 6px 0;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 16px;
+  color: #111; /* Texte des réponses foncé */
+}
+
+.answers input[type="radio"] {
+  margin-right: 10px;
+}
+
+.answers label:hover {
+  background-color: #d3eafd;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  font-size: 18px;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#results {
+  margin-top: 25px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #111; /* Résultat bien foncé */
+}
+
+.correct {
+  background-color: #c8e6c9 !important;
+  font-weight: bold;
+  color: #0d4706 !important;
+}
+
+.incorrect {
+  background-color: #ffcdd2 !important;
+  font-weight: bold;
+  color: #7b0000 !important;
+}
